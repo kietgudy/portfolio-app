@@ -326,8 +326,8 @@ img.svg {
 	transition: all .3s ease;
 	.logo_wrap {
 		background-color: $background-color_2;
-		padding: 50px 20px;
-		width: 100%;
+		padding: 0 15px;
+		width: 180px;
 		float: left;
 		text-align: center;
 		margin-bottom: 50px;
@@ -534,6 +534,7 @@ img.svg {
 		img {
 			height: 100%;
 			width: 100%;
+			object-fit: cover;
 			border-radius: 100%;
 			border: 8px solid rgba(255,255,255,.5);
 		}
@@ -792,6 +793,7 @@ img.svg {
 		margin-bottom: 15px;
 		p {
 			color: $color_1;
+			line-height: 2;
 			strong {
 				color: $color_3;
 			}
@@ -1043,8 +1045,11 @@ img.svg {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	background-color: $background-color_5;
-	padding: 90px 0px;
-	margin-bottom: 100px;
+	padding-top: 90px;
+	&:last-child {
+		padding-bottom: 90px;
+		margin-bottom: 100px;
+	}
 	.inner_wrap {
 		width: 100%;
 		height: auto;

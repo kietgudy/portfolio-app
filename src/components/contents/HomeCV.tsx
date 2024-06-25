@@ -19,7 +19,7 @@ const HomeCV = () => {
                 </div>
                 <div className="name_holder">
                   <h3>
-                    TUAN <span>KIET</span>
+                    NGUYEN VU <span>TAN KIET</span>
                   </h3>
                 </div>
                 <div className="text_typing">
@@ -27,8 +27,6 @@ const HomeCV = () => {
                     I'm a <span className="arlo_tm_animation_text_word"></span>
                     <TypeAnimation
                       sequence={[
-                        "Freelancer",
-                        2000,
                         "UI/UX Designer",
                         2000,
                         "Web Developer",
