@@ -8,15 +8,10 @@ const Skill = () => {
           <div className="inner_wrap">
             <div className="leftbox">
               <div className="arlo_tm_mini_title_holder">
-                <h4>Some About my Abilities</h4>
+                <h4>Kỹ Năng Frontend</h4>
               </div>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since. Lorem Ipsum has been the industry. Lorem Ipsum
-                has been the industry's standard dummy text since. Lorem Ipsum
-                is simply.
-              </p>
+              <li>Cắt ghép template Website Responsive</li>
+              <li>Framework/Library: ReactJs, NextJs, Bootstrap, Antd, MUI</li>
             </div>
             <div className="rightbox">
               <div className="progress_bar_wrap_total">
@@ -32,16 +27,10 @@ const Skill = () => {
                     data-color="#000"
                   >
                     <span>
-                      <span className="label">
-                        Wordpress -{" "}
-                        <span className="experience">
-                          5 years of experience
-                        </span>
-                      </span>
+                      <span className="label">Wordpress</span>
                       <span className="number">95%</span>
                     </span>
                     <div className="arlo_tm_bar_bg">
-                    
                       <ProgressBar
                         completed={60}
                         bgColor={"#333"}
@@ -56,18 +45,16 @@ const Skill = () => {
                     data-color="#000"
                   >
                     <span>
-                      <span className="label">
-                        Css -{" "}
-                        <span className="experience">
-                          3 years of experience
-                        </span>
-                      </span>
-                      <span className="number">85%</span>
+                      <span className="label">Wordpress</span>
+                      <span className="number">95%</span>
                     </span>
                     <div className="arlo_tm_bar_bg">
-                      <div className="arlo_tm_bar_wrap">
-                        <div className="arlo_tm_bar"></div>
-                      </div>
+                      <ProgressBar
+                        completed={60}
+                        bgColor={"#333"}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
                     </div>
                   </div>
                   <div
@@ -76,18 +63,16 @@ const Skill = () => {
                     data-color="#000"
                   >
                     <span>
-                      <span className="label">
-                        HTML -{" "}
-                        <span className="experience">
-                          4 years of experience
-                        </span>
-                      </span>
-                      <span className="number">75%</span>
+                      <span className="label">Wordpress</span>
+                      <span className="number">95%</span>
                     </span>
                     <div className="arlo_tm_bar_bg">
-                      <div className="arlo_tm_bar_wrap">
-                        <div className="arlo_tm_bar"></div>
-                      </div>
+                      <ProgressBar
+                        completed={60}
+                        bgColor={"#333"}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
                     </div>
                   </div>
                   <div
@@ -96,18 +81,16 @@ const Skill = () => {
                     data-color="#000"
                   >
                     <span>
-                      <span className="label">
-                        After Effect -{" "}
-                        <span className="experience">
-                          6 years of experience
-                        </span>
-                      </span>
-                      <span className="number">90%</span>
+                      <span className="label">Wordpress</span>
+                      <span className="number">95%</span>
                     </span>
                     <div className="arlo_tm_bar_bg">
-                      <div className="arlo_tm_bar_wrap">
-                        <div className="arlo_tm_bar"></div>
-                      </div>
+                      <ProgressBar
+                        completed={60}
+                        bgColor={"#333"}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
                     </div>
                   </div>
                 </div>
@@ -120,16 +103,11 @@ const Skill = () => {
         <div className="container">
           <div className="inner_wrap">
             <div className="leftbox">
-              <div className="arlo_tm_mini_title_holder">
-                <h4>Some About my Abilities</h4>
+            <div className="arlo_tm_mini_title_holder">
+                <h4>Kỹ Năng Backend</h4>
               </div>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since. Lorem Ipsum has been the industry. Lorem Ipsum
-                has been the industry's standard dummy text since. Lorem Ipsum
-                is simply.
-              </p>
+              <li>Cắt ghép template Website Responsive</li>
+              <li>Framework/Library: ReactJs, NextJs, Bootstrap, Antd, MUI</li>
             </div>
             <div className="rightbox">
               <div className="progress_bar_wrap_total">
@@ -145,18 +123,16 @@ const Skill = () => {
                     data-color="#000"
                   >
                     <span>
-                      <span className="label">
-                        Wordpress -{" "}
-                        <span className="experience">
-                          5 years of experience
-                        </span>
-                      </span>
+                      <span className="label">Wordpress</span>
                       <span className="number">95%</span>
                     </span>
                     <div className="arlo_tm_bar_bg">
-                      <div className="arlo_tm_bar_wrap">
-                        <div className="arlo_tm_bar"></div>
-                      </div>
+                      <ProgressBar
+                        completed={60}
+                        bgColor={"#333"}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
                     </div>
                   </div>
                   <div
@@ -165,18 +141,16 @@ const Skill = () => {
                     data-color="#000"
                   >
                     <span>
-                      <span className="label">
-                        Css -{" "}
-                        <span className="experience">
-                          3 years of experience
-                        </span>
-                      </span>
-                      <span className="number">85%</span>
+                      <span className="label">Wordpress</span>
+                      <span className="number">95%</span>
                     </span>
                     <div className="arlo_tm_bar_bg">
-                      <div className="arlo_tm_bar_wrap">
-                        <div className="arlo_tm_bar"></div>
-                      </div>
+                      <ProgressBar
+                        completed={60}
+                        bgColor={"#333"}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
                     </div>
                   </div>
                   <div
@@ -185,18 +159,16 @@ const Skill = () => {
                     data-color="#000"
                   >
                     <span>
-                      <span className="label">
-                        HTML -{" "}
-                        <span className="experience">
-                          4 years of experience
-                        </span>
-                      </span>
-                      <span className="number">75%</span>
+                      <span className="label">Wordpress</span>
+                      <span className="number">95%</span>
                     </span>
                     <div className="arlo_tm_bar_bg">
-                      <div className="arlo_tm_bar_wrap">
-                        <div className="arlo_tm_bar"></div>
-                      </div>
+                      <ProgressBar
+                        completed={60}
+                        bgColor={"#333"}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
                     </div>
                   </div>
                   <div
@@ -205,18 +177,16 @@ const Skill = () => {
                     data-color="#000"
                   >
                     <span>
-                      <span className="label">
-                        After Effect -{" "}
-                        <span className="experience">
-                          6 years of experience
-                        </span>
-                      </span>
-                      <span className="number">90%</span>
+                      <span className="label">Wordpress</span>
+                      <span className="number">95%</span>
                     </span>
                     <div className="arlo_tm_bar_bg">
-                      <div className="arlo_tm_bar_wrap">
-                        <div className="arlo_tm_bar"></div>
-                      </div>
+                      <ProgressBar
+                        completed={60}
+                        bgColor={"#333"}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
                     </div>
                   </div>
                 </div>
