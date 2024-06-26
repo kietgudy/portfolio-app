@@ -1,26 +1,28 @@
-import { Button, Modal } from "antd";
+import {  Modal } from "antd";
 import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { GrReactjs } from "react-icons/gr";
+interface Detail {
+  description: string;
+  frontend: string;
+  backend: string;
+  demo: string;
+  github: string;
+}
+
+interface Project {
+  image: string;
+  title: string;
+  detail: Detail;
+}
 const Project = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [dataDetail, setDataDetail] = useState(null);
-  const showModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const handleOk = () => {
-    setIsModalOpen(false);
-  };
-
-  const handleCancel = () => {
-    setIsModalOpen(false);
-  };
+  const [dataDetail, setDataDetail] = useState<Project | null>(null);
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setDataDetail(null);
   };
-  const dataProjects = [
+  const dataProjects: Project[] = [
     {
       image: "",
       title: "Ứng dụng ReactJs để viết website Blogging",

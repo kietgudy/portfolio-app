@@ -36,6 +36,9 @@ const HomeCV = () => {
                       speed={50}
                       // style={{ fontSize: "2em", display: "inline-block" }}
                       repeat={Infinity}
+                      onPointerEnterCapture={() => {}}
+                      onPointerLeaveCapture={() => {}}
+                      placeholder=""
                     />
                   </p>
                 </div>

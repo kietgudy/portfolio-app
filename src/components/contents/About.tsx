@@ -41,6 +41,9 @@ const About = () => {
                       speed={50}
                       // style={{ fontSize: "2em", display: "inline-block" }}
                       repeat={Infinity}
+                      onPointerEnterCapture={() => {}}
+                      onPointerLeaveCapture={() => {}}
+                      placeholder=""
                     />
                     <span className="arlo_tm_animation_text_word"></span>
                   </h4>
