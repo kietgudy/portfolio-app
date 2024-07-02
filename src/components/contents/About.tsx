@@ -54,7 +54,7 @@ const About = () => {
                     <br />
                     Với mong muốn được học hỏi, trau dồi kỹ năng và kinh nghiệm thực tế để phát triển bản thân và đóng góp cho công ty.
                     <br />
-                    Tôi tin rằng với sự nhiệt huyết, ham học hỏi và tinh thần trách nhiệm cao, tôi sẽ hoàn thành tốt mọi nhiệm vụ được giao và trở thành một thành viên hữu ích cho đội ngũ của công ty.
+                    Em tin rằng với sự nhiệt huyết, ham học hỏi và tinh thần trách nhiệm cao, em sẽ hoàn thành tốt mọi nhiệm vụ được giao và trở thành một thành viên hữu ích cho đội ngũ của công ty.
                   </p>
                 </div>
                 <div className="about_short_contact_wrap">

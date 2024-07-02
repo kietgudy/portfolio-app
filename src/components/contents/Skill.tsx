@@ -11,7 +11,7 @@ const Skill = () => {
                 <h4>Kỹ Năng Frontend</h4>
               </div>
               <li>HTML/CSS (SCSS), JavaScript, TypeScript, ReactJS, Redux Toolkit, Ant Design, MUI, Bootstrap 5, TailwindCss.</li>
-              <li>Git, Figma cơ bản</li>
+              <li>Git, Postman, Figma cơ bản</li>
             </div>
           </div>
         </div>

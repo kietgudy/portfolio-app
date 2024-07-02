@@ -25,31 +25,24 @@ const Project = () => {
   const dataProjects: Project[] = [
     {
       image: "",
-      title: "Ứng dụng ReactJs để viết website Blogging",
+      title: "BOOK SALES MANAGEMENT WEBSITE",
       detail: {
-        description: `Xây dựng website viết blog với chức năng :
-        + Chức năng đăng nhập, đăng ký, đăng xuất.
-+ Tạo và xem bài viết.
-+ Quản lý bài viết, danh mục, người dùng`,
+        description: `The website manages a small bookstore, using NestJs as the backend for the RESTful API and ReactJS, this project aims to deliver a smooth and customizable user experience.`,
         frontend:
-          "HTML/CSS (SCSS), JavaScript, ReactJs, TailwindCss, Styled Components.",
-        backend: "Firebase (cung cấp Realtime Database).",
-        demo: "https://blogging-app-rose.vercel.app",
-        github: "https://github.com/kietgudy/blogging-app",
+          "HTML/CSS (SCSS), JavaScript, ReactJs, Redux Toolkit, Ant Design.",
+        backend: "NestJs",
+        demo: "Coming soon",
+        github: "https://github.com/kietgudy/ecommerce-book",
       },
     },
     {
       image: "",
-      title: "Web quản lý bài Quizz",
+      title: "QUIZ MANAGEMENT WEBSITE",
       detail: {
-        description: `Xây dựng website Test Quizz với chức năng : + Chức năng đăng nhập, đăng ký, đăng xuất.
-+ Kiểm tra và nộp bài thi.
-+ CRUD user, quizz, tạo question.
-+ Chuyển đổi ngôn ngữ
-+ Báo cáo thống kê.`,
+        description: `A quiz management website enabling users to create and answer questions flexibly. Utilizing NodeJs for the backend RESTful API and ReactJS for the frontend.`,
         frontend:
           "HTML/CSS (SCSS), JavaScript, ReactJS, Redux Toolkit, Bootstrap 5.",
-        backend: "Sử dụng backend có sẵn",
+        backend: "NodeJs",
         demo: "Coming soon",
         github: "https://github.com/kietgudy/test-quizz",
       },
